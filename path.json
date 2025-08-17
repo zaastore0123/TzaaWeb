@@ -28,7 +28,7 @@
     "github": {
       "name": "GitHub",
       "owner": "zaastore0123",
-      "repo": "ImageURL",
+      "repo": "TzaaWeb",
       "branch": "main",
       "path": "uploads/",
       "serverProxy": "https://yourserver.com/uploadGithub"
