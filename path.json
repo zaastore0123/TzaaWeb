@@ -1,0 +1,37 @@
+{
+  "apis": {
+    "catbox": {
+      "name": "Catbox",
+      "endpoint": "https://catbox.moe/user/api.php"
+    },
+    "imgur": {
+      "name": "Imgur",
+      "clientId": "YOUR_IMGUR_CLIENT_ID",
+      "endpoint": "https://api.imgur.com/3/image"
+    },
+    "postimages": {
+      "name": "Postimages",
+      "apiKey": "YOUR_POSTIMAGES_KEY",
+      "endpoint": "https://api.postimages.org/1/upload"
+    },
+    "imgbb": {
+      "name": "ImgBB",
+      "apiKey": "YOUR_IMGBB_KEY",
+      "endpoint": "https://api.imgbb.com/1/upload"
+    },
+    "cloudinary": {
+      "name": "Cloudinary",
+      "cloudName": "YOUR_CLOUD_NAME",
+      "uploadPreset": "YOUR_PRESET",
+      "endpoint": "https://api.cloudinary.com/v1_1/YOUR_CLOUD_NAME/image/upload"
+    },
+    "github": {
+      "name": "GitHub",
+      "owner": "zaastore0123",
+      "repo": "ImageURL",
+      "branch": "main",
+      "path": "uploads/",
+      "serverProxy": "https://yourserver.com/uploadGithub"
+    }
+  }
+}
